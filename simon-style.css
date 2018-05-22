@@ -1,0 +1,126 @@
+body {
+  background: #232425;
+  background-image: url("http://www.psdgraphics.com/file/light-wooden-background.jpg");
+  font-family: "Oswald", sans-serif;
+}
+button:focus {
+  outline: none;
+}
+#gameContainer {
+  margin-left: 100px;
+  margin-top: 100px;
+}
+#green {
+  width: 200px;
+  height: 200px;
+  background: #00a74b;
+  border-radius: 200px 0 0 0;
+}
+#red {
+  background: #9f0f17;
+  border-radius: 0 200px 0 0;
+}
+#yellow {
+  background: #cca707;
+  border-radius: 0 0 0 200px;
+}
+#blue {
+  background: #0b4a8f;
+  border-radius: 0 0 200px 0;
+}
+.quarterCircle {
+  float: left;
+  width: 200px;
+  height: 200px;
+  border: 10px solid #0c0d0d;
+  box-shadow: 5px 3px 30px black;
+}
+.quarterCircle:hover {
+  cursor: pointer;
+}
+.quarterCircle:disabled {
+  cursor: auto;
+}
+#centerCircle {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  /*  background-color: #d8d9da; */
+  background-color: white;
+  border: 10px solid #0c0d0d;
+  border-radius: 100%;
+  margin: 100px 85px;
+  z-index: 1;
+}
+#simonLogo {
+  position: absolute;
+  width: 150px;
+  margin: 40px 15px;
+}
+#stepCounterDisplay {
+  position: absolute;
+  margin: 80px 20px;
+  height: 40px;
+  width: 50px;
+  border-radius: 20%;
+  background-color: #cac8b3;
+  border: 3px solid #0c0d0d;
+  box-shadow: 1px 2px 2px, inset 0px 0px 3px rgba(0, 0, 0, 0.8);
+  text-align: center;
+  font-size: 130%;
+}
+#startButton {
+  position: absolute;
+  margin: 90px 80px;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  background-color: red;
+  border: 3px solid #0c0d0d;
+  box-shadow: 1px 2px 3px black;
+}
+#startButton:hover {
+  cursor: pointer;
+}
+#strictButton {
+  position: absolute;
+  margin: 90px 123px;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  background-color: yellow;
+  border: 3px solid #0c0d0d;
+  box-shadow: 1px 2px 3px black;
+}
+#strictButton:hover {
+  cursor: pointer;
+}
+#strictIndicator {
+  position: absolute;
+  margin: 78px 128px;
+  height: 10px;
+  width: 20px;
+  background-color: gray;
+  border-radius: 5px;
+  border: 2px solid #0c0d0d;
+  box-shadow: 0px 1px 3px black;
+}
+#labelsContainer {
+  position: absolute;
+  margin: 120px 15px;
+  font-family: "Oswald", sans-serif;
+}
+.labels {
+  float: left;
+  margin-top: 5px;
+  font-size: 80%;
+}
+#countLabel {
+  margin-left: 14px;
+}
+#startLabel {
+  margin-left: 18px;
+}
+#strictLabel {
+  margin-left: 14px;
+}

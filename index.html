@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>FCC Simon Game</title>
+    
+    <link rel="stylesheet" type="text/css" href="simon-style.css">
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="simon-script.js"></script>
+    
+</head>
+    
+<body>
+    <div id="gameContainer" class="container">
+      <div id="centerCircle">
+        <img id="simonLogo" src="http://www.typophile.com/sites/default/files/old-images/Simon_4363.png" />
+        <div id="stepCounterDisplay">--</div>
+        <button id="startButton"></button>
+        <button id="strictButton"></button>
+        <div id="strictIndicator"></div>
+        <div id="labelsContainer">
+          <p id="countLabel" class="labels">COUNT</p>
+          <p id="startLabel" class="labels">START</p>
+          <p id="strictLabel" class="labels">STRICT</p>
+        </div>
+      </div>
+      <div id="topHalfCircleRow" class="row">
+        <button id="green" class="quarterCircle"></button>
+        <button id="red" class="quarterCircle"></button>
+      </div>
+      <div id="bottomHalfCircleRow" class="row">
+        <button id="yellow" class="quarterCircle"></button>
+        <button id="blue" class="quarterCircle"></button>
+      </div>
+    </div>
+</body>
+</html>
